@@ -16,10 +16,13 @@ body {
   flex-direction: row;
   background-color: white;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
 }
 
 .logo {
-  height: 25px;
+  height: 30px;
   margin-left: 102px;
 }
 
@@ -27,14 +30,15 @@ body {
   background-color: #fafafa;
   border: none;
   text-align: center;
-  height: 30px;
-  width: 250px;
+  height: 28px;
+  width: 215px;
   margin: 10px;
   margin-left: 15%;
   border: solid;
   border-width: 1px;
   border-color: #b2b2b2;
   border-radius: 3px;
+  outline: none;
 }
 
 .casa {
@@ -96,18 +100,20 @@ body {
 .stories {
   display: flex;
   flex-direction: row;
-  margin-top: 33px;
+  margin-top: 82px;
   margin-left: 208px;
   background-color: white;
   width: 610px;
   height: 120px;
+  border: 1px solid lightgrey;
+  padding-top: 10px;
+  
 }
 
 .sugestoes {
   position: fixed;
-  margin-top: 33px;
+  margin-top: 82px;
   margin-left: 850px;
-  background-color: white;
   width: 290px;
   padding: 7px;
 }
@@ -119,6 +125,7 @@ body {
   margin-left: 208px;
   width: 610px;
   background-color: white;
+  border: 1px solid lightgrey;
 }
 
 .publicacao2 {
@@ -128,6 +135,7 @@ body {
   margin-left: 208px;
   width: 610px;
   background-color: white;
+  border: 1px solid lightgrey
 }
 
 .cima {
@@ -163,6 +171,8 @@ body {
   width: 520px;
   border: none;
   padding-left: 10px;
+  border-top: 1px solid lightgrey;
+  outline: none;
 }
 
 .sugest {
@@ -210,4 +220,22 @@ body {
   border-style: groove;
   border-color: #ff00ea;
   border-width: 2px;
+}
+
+.ft_stories{
+  height: 56px;
+  width: 56px;
+  margin: 10px auto;
+  border-radius: 50px;
+  border-style: groove;
+  border-color: #ff00ea;
+  border-width: 3px;
+  float: inline-end;
+}
+
+.flores {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  text-align: center;
 }
